@@ -89,7 +89,7 @@ From ODK Central, follows these steps:
 
 ### 4.Usage
 
-Users can enter data via the web link and submissions can be managed directly via the ODK Central interface. For the scoring, download the CSV Table from ODK Central to your local machine into the `data/` folder created (Step 2 above). Modify the `input.json.example` file provided with this repository. In particular, use the name of the data file and the rule to select the audit you want to process.
+Users can enter data via the web link and submissions can be managed directly via the ODK Central interface. For the scoring, download the CSV Table from ODK Central to your local machine into the `data/` folder created (Step 2 above). Modify the `input_example/input.json` file provided with this repository. In particular, use the name of the data file and the rule to select the audit you want to process.
 Run `python scoring.py input.json` to create an excel file containing the scores of each indicator.
 
 
