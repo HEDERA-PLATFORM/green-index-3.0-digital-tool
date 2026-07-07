@@ -1,0 +1,7 @@
+{
+    "datafile": "../data/<submissions>.csv",
+    "institution_name": "<YOUR INSTITUTION>",
+    "select_column": "institution",
+    "select_value": "<YOUR INSTITUTION>",
+    "survey": "../green_index_3_0.xlsx"
+}
